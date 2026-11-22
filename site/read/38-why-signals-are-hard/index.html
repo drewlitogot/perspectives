@@ -1,0 +1,318 @@
+<!DOCTYPE html><html lang="en-US"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Why signals are hard · Perspectives</title><meta name="description" content="Chapter 38 of Perspectives: Why signals are hard."><meta name="color-scheme" content="light dark"><meta property="og:title" content="Why signals are hard · Perspectives"><meta property="og:description" content="Chapter 38 of Perspectives: Why signals are hard."><meta property="og:image" content="https://drewlitogot.github.io/perspectives/brand/cover.jpg"><link rel="icon" href="/perspectives/favicon.svg" type="image/svg+xml"><script>
+    // Apply saved display preferences before the first paint (no flash of the wrong theme).
+    try {
+      const p = JSON.parse(localStorage.getItem("perspectives:prefs") || "{}");
+      const r = document.documentElement;
+      if (p.theme && p.theme !== "system") r.dataset.theme = p.theme;
+      if (p.size) r.dataset.size = p.size;
+      if (p.font) r.dataset.font = p.font;
+      if (p.spacing) r.dataset.spacing = p.spacing;
+      if (p.motion) r.dataset.motion = p.motion;
+    } catch (e) {}
+  </script><link rel="stylesheet" href="/perspectives/_astro/Base.woyaHHvh.css"><link rel="stylesheet" href="/perspectives/_astro/GameIsland.BXbL6pg0.css"></head><body><a class="skip-link" href="#main">Skip to content</a><header class="site-header"><div class="header-inner"><a class="wordmark" href="/perspectives/" aria-label="Perspectives, home">perspectives</a><nav aria-label="Main"><ul class="nav-list"><li><a href="/perspectives/read/" aria-current="page">Read</a></li><li><a href="/perspectives/activities/">Activities</a></li><li><a href="/perspectives/search/">Search</a></li><li><a href="/perspectives/resources/">Resources</a></li><li><a href="/perspectives/about/">About</a></li></ul></nav><button class="settings-toggle" type="button" aria-expanded="false" aria-controls="settings-panel"><span aria-hidden="true">Aa</span><span class="settings-label">Reading settings</span></button></div><div id="settings-panel" class="settings-panel" hidden><div class="settings-grid"><fieldset><legend>Theme</legend><div class="seg" data-pref="theme"><button type="button" data-value="system">Auto</button><button type="button" data-value="light">Light</button><button type="button" data-value="dark">Dark</button></div></fieldset><fieldset><legend>Text size</legend><div class="seg" data-pref="size"><button type="button" data-value="s" aria-label="Small">A</button><button type="button" data-value="m" aria-label="Medium" class="size-m">A</button><button type="button" data-value="l" aria-label="Large" class="size-l">A</button><button type="button" data-value="xl" aria-label="Extra large" class="size-xl">A</button></div></fieldset><fieldset><legend>Reading font</legend><div class="seg" data-pref="font"><button type="button" data-value="sans">Atkinson</button><button type="button" data-value="serif">Literata</button></div></fieldset><fieldset><legend>Line spacing</legend><div class="seg" data-pref="spacing"><button type="button" data-value="normal">Normal</button><button type="button" data-value="relaxed">Relaxed</button></div></fieldset><fieldset><legend>Motion</legend><div class="seg" data-pref="motion"><button type="button" data-value="auto">Auto</button><button type="button" data-value="reduce">Reduce</button></div></fieldset><fieldset><legend>Progress</legend><label class="check"><input type="checkbox" id="remember-progress"> Remember chapters and activities I finish, on this device only</label><button type="button" class="text-button" id="clear-data">Clear everything stored on this device</button><p class="small muted" id="clear-status" aria-live="polite"></p></fieldset></div></div></header><main id="main" class tabindex="-1"><div class="progress-bar" aria-hidden="true"></div><div class="reader"><aside class="reader-aside" aria-label="In this chapter"><h2>In this chapter</h2><ol><li><a href="#a-signal-is-not-the-same-as-an-intention">A signal is not the same as an intention</a></li><li><a href="#people-really-do-get-this-wrong">People really do get this wrong</a></li><li><a href="#people-can-make-mistakes-in-both-directions">People can make mistakes in both directions</a></li><li><a href="#sometimes-people-are-deliberately-indirect">Sometimes people are deliberately indirect</a></li><li><a href="#different-ways-of-communicating-can-create-different-interpretations">Different ways of communicating can create different interpretations</a></li><li><a href="#even-familiar-forms-of-affection-can-mean-different-things">Even familiar forms of affection can mean different things</a></li><li><a href="#not-everyone-learned-the-same-dating-rules">Not everyone learned the same dating rules</a></li><li><a href="#why-some-readers-find-this-especially-frustrating">Why some readers find this especially frustrating</a></li><li><a href="#the-difference-between-a-possibility-and-a-promise">The difference between a possibility and a promise</a></li><li><a href="#a-small-exercise-what-do-you-actually-know">A small exercise: What do you actually know?</a></li><li><a href="#you-dont-have-to-become-a-detective">You don’t have to become a detective</a></li><li><a href="#references">References</a></li></ol><div class="filter-box"><fieldset><legend>Show boxes for</legend><p class="small muted" style="margin:0.4rem 0 0.1rem">Neurotype boxes</p><label><input type="checkbox" checked data-callout="neurotype:autistic"> Autistic</label><p class="small muted" style="margin:0.4rem 0 0.1rem">Partner boxes</p><label><input type="checkbox" checked data-callout="partner:autistic"> Autistic partner</label></fieldset><p class="small muted">Hidden boxes come back when you tick them again.</p></div></aside><article aria-labelledby="chapter-title"><header class="chapter-head"><p class="kicker">Part 5 · Signals and interest</p><h1 id="chapter-title"><span class="visually-hidden">Chapter 38: </span>Why signals are hard</h1><p class="small muted">Chapter 38 · about 20 minutes</p></header><details class="toc-mobile"><summary>In this chapter</summary><div class="inner"><ol class="reader-aside"><li><a href="#a-signal-is-not-the-same-as-an-intention">A signal is not the same as an intention</a></li><li><a href="#people-really-do-get-this-wrong">People really do get this wrong</a></li><li><a href="#people-can-make-mistakes-in-both-directions">People can make mistakes in both directions</a></li><li><a href="#sometimes-people-are-deliberately-indirect">Sometimes people are deliberately indirect</a></li><li><a href="#different-ways-of-communicating-can-create-different-interpretations">Different ways of communicating can create different interpretations</a></li><li><a href="#even-familiar-forms-of-affection-can-mean-different-things">Even familiar forms of affection can mean different things</a></li><li><a href="#not-everyone-learned-the-same-dating-rules">Not everyone learned the same dating rules</a></li><li><a href="#why-some-readers-find-this-especially-frustrating">Why some readers find this especially frustrating</a></li><li><a href="#the-difference-between-a-possibility-and-a-promise">The difference between a possibility and a promise</a></li><li><a href="#a-small-exercise-what-do-you-actually-know">A small exercise: What do you actually know?</a></li><li><a href="#you-dont-have-to-become-a-detective">You don’t have to become a detective</a></li><li><a href="#references">References</a></li></ol></div></details><div class="chapter-body" data-pagefind-body data-pagefind-meta="chapter:Chapter 38"><p>Someone smiles when you walk into the room. They remember something you told them last week. When everyone else leaves, they stay to talk with you.</p>
+<p>Are they interested in you romantically?</p>
+<p>Maybe.</p>
+<p>They might also enjoy your company without wanting to date you. They might be naturally affectionate. They might be interested but unsure whether you are. Or they might not have thought about romance at all.</p>
+<p>Now reverse the situation.</p>
+<p>You enjoy spending time with someone. You ask about their weekend, laugh at their jokes, and look forward to seeing them. One day, they ask whether you’ve been flirting with them.</p>
+<p>You weren’t trying to. You thought you were being friendly.</p>
+<p>Or perhaps you <em>were</em> interested, and you’re surprised they finally noticed.</p>
+<p>All three situations are possible because the same behavior can mean different things to different people.</p>
+<p>If you’ve spent years trying to work out what someone’s smile, silence, or attention really means, you may have assumed you were missing a secret rule. Perhaps everyone else learned it years ago, and you somehow missed that lesson.</p>
+<p>There are social conventions you can learn. But there is no perfect dictionary of romantic signals, and even people who seem comfortable with dating get them wrong.</p>
+<p>The difficulty isn’t always that you failed to understand the message.</p>
+<p>Sometimes the message itself is unclear.</p>
+<h2 id="a-signal-is-not-the-same-as-an-intention">A signal is not the same as an intention</h2>
+<p>A <strong>signal</strong> is something another person can observe and interpret as a message.</p>
+<p>A smile can signal friendliness. A question can signal curiosity. Staying to talk can suggest that someone enjoys your company.</p>
+<p>But an observable action and the intention behind it are two different things.</p>
+<p>Consider three levels:</p>
+<ul>
+<li><strong>What happened:</strong> Someone remembered your favorite movie and asked whether you’d seen its sequel.</li>
+<li><strong>What you interpreted:</strong> They must have remembered because they’re attracted to you.</li>
+<li><strong>What you actually know:</strong> They remembered something you said and wanted to discuss it.</li>
+</ul>
+<p>Your interpretation isn’t necessarily wrong. It simply goes beyond the information you have.</p>
+<p>That distinction matters.</p>
+<p>Imagine that Jordan, 32, and Eli, 35, have been attending the same weekly board-game group for several months. Eli begins saving Jordan a seat.</p>
+<p>Jordan thinks, <em>Maybe Eli likes me.</em></p>
+<p>That’s a reasonable possibility.</p>
+<p>But Eli could be saving the seat because Jordan is a good teammate, because they have become friends, or because Eli would like something romantic to develop.</p>
+<p>Jordan has observed a behavior, not received a declaration.</p>
+<p>You don’t have to dismiss every hopeful interpretation. You also don’t need to treat one as a fact.</p>
+<p>A useful sentence to practice is:</p>
+<p><strong>“That could mean they’re interested, but I don’t know yet.”</strong></p>
+<p>It gives you room to be hopeful without pretending you can read another person’s thoughts.</p>
+<h2 id="people-really-do-get-this-wrong">People really do get this wrong</h2>
+<p>Researchers have tried to measure how well people recognize romantic interest.</p>
+<p>In one study, observers watched short video clips of people participating in speed dating. Speed dating involves meeting several potential partners for brief conversations and deciding afterward whether you’d like further contact.</p>
+<p>The observers tried to predict which daters were interested in one another.</p>
+<p>They performed better than chance in some situations, even when the clips lasted only ten seconds. But their accuracy varied. They were only slightly better than chance when judging women’s interest, and some individual daters were particularly difficult to read <span class="citation" data-cites="place2009">(<a href="#ref-place2009" role="doc-biblioref">Place et al., 2009</a>)</span>.</p>
+<p>That result is worth understanding carefully.</p>
+<p>It doesn’t mean romantic interest is impossible to recognize. The observers did detect some useful information.</p>
+<p>It means the information wasn’t reliable enough to make accurate judgments every time.</p>
+<p>A follow-up study asked observers from the United States, China, and Germany to judge videos of German speed daters. The observers showed broadly similar patterns in their judgments. Some daters were consistently easier to read than others, regardless of where the observers came from <span class="citation" data-cites="place2012">(<a href="#ref-place2012" role="doc-biblioref">Place et al., 2012</a>)</span>.</p>
+<p>Both studies involved outside observers watching brief dating interactions. They don’t establish how accurately you can understand someone you’ve known for months.</p>
+<p>They do challenge the idea that an interested person always sends an unmistakable message.</p>
+<p>Sometimes two people can observe the same interaction and reach different conclusions.</p>
+<p>And sometimes the people involved haven’t made their own intentions clear.</p>
+<h3 id="why-confidence-can-fool-you">Why confidence can fool you</h3>
+<p>Imagine that you’ve become attracted to someone who seems to enjoy talking with you.</p>
+<p>You replay a conversation afterward.</p>
+<p>They smiled when you made a joke. They asked whether you’d be attending the next event. They mentioned being single.</p>
+<p>You begin to assemble those details into a story: <em>They like me.</em></p>
+<p>That story might be correct.</p>
+<p>But consider what happens if you start treating every new interaction as evidence for it. A friendly message becomes romantic encouragement. A delayed reply becomes proof they’re trying to hide their feelings. An ordinary conversation becomes a meaningful moment.</p>
+<p>By that point, you are interpreting the person through a conclusion you’ve already reached.</p>
+<p>The reverse can happen, too.</p>
+<p>Someone might clearly enjoy your company, but if you’re convinced nobody could be interested in you, you may dismiss every positive interaction.</p>
+<p>You don’t have to solve either problem by becoming more suspicious or more optimistic.</p>
+<p>Instead, separate what you know from what you’re imagining.</p>
+<p>You can enjoy the possibility of being liked without turning it into certainty. You can acknowledge a possibility without building your future around it.</p>
+<p><strong>How strongly you feel about an interpretation does not tell you whether it is correct.</strong></p>
+<h2 id="people-can-make-mistakes-in-both-directions">People can make mistakes in both directions</h2>
+<p>Romantic and sexual interest are not identical.</p>
+<p>Someone can want to date you without wanting sex. Someone can experience sexual attraction without wanting a romantic relationship. Some people experience neither, or experience them differently.</p>
+<p>That distinction becomes important when considering research about misread signals.</p>
+<p>In a US study involving 199 participants in brief speed-meeting interactions, women tended to underestimate men’s reported sexual interest. Men’s overestimation of women’s sexual interest varied with factors including how attractive the men considered themselves and how attractive they considered their interaction partners <span class="citation" data-cites="perilloux2012">(<a href="#ref-perilloux2012" role="doc-biblioref">Perilloux et al., 2012</a>)</span>.</p>
+<p>You may encounter simplified versions of this research claiming that one gender always mistakes friendliness for sexual interest.</p>
+<p>That’s not what the study establishes.</p>
+<p>Another experiment offers an important complication.</p>
+<p>Researchers asked 280 heterosexual undergraduate students to categorize photographs of women displaying expressions intended to communicate friendliness, sexual interest, sadness, or rejection.</p>
+<p>On average, male participants made more errors than female participants. But they made errors <strong>in both directions</strong>: they were more likely to classify friendly expressions as sexual and more likely to classify sexual expressions as friendly.</p>
+<p>The researchers interpreted this pattern as difficulty distinguishing the categories in that task, rather than simply a greater tendency to assume sexual interest <span class="citation" data-cites="farris2008">(<a href="#ref-farris2008" role="doc-biblioref">Farris et al., 2008</a>)</span>.</p>
+<p>These two experiments used different methods and measured different things. They don’t establish one universal explanation for misreading interest.</p>
+<p>They also studied narrow populations, primarily young, heterosexual participants within binary gender categories. Their results cannot be converted into rules about every man, woman, nonbinary person, or relationship.</p>
+<p>The useful lesson isn’t that you should distrust an entire gender.</p>
+<p>It’s that people can misunderstand another person’s interest by assuming too much <strong>or</strong> by noticing too little.</p>
+<p>The question is not which gender is better at dating.</p>
+<p>It’s whether your particular interpretation is supported by what this particular person has actually communicated.</p>
+<h2 id="sometimes-people-are-deliberately-indirect">Sometimes people are deliberately indirect</h2>
+<p>If clear communication would prevent misunderstandings, why doesn’t everyone simply say what they mean?</p>
+<p>Because expressing interest can feel vulnerable.</p>
+<p>Imagine two friends, Sam and Alex, who have known each other for a year. Sam has started developing romantic feelings for Alex.</p>
+<p>Sam values the friendship. They are uncertain whether Alex feels similarly. A direct expression of interest might change the friendship, even if Alex responds kindly.</p>
+<p>Sam might therefore remain uncertain about what to say.</p>
+<p>That uncertainty can affect their behavior. They may appear warm, reserved, unusually attentive, or inconsistent from one conversation to another.</p>
+<p>Other people might behave in similar ways for entirely different reasons.</p>
+<p>Researchers Steven Pinker, Martin Nowak, and James Lee proposed a theoretical explanation for some indirect communication: speaking indirectly can allow people to explore a socially sensitive possibility while reducing the perceived risk to an existing relationship <span class="citation" data-cites="pinker2008">(<a href="#ref-pinker2008" role="doc-biblioref">Pinker et al., 2008</a>)</span>.</p>
+<p>This was a theoretical model, not a study measuring how frequently people intentionally use ambiguous romantic signals.</p>
+<p>It helps explain why directness can feel socially difficult. It doesn’t establish that a particular ambiguous statement is secretly romantic.</p>
+<p>And it certainly doesn’t mean you should search for hidden romantic invitations in everything someone says.</p>
+<p>There is a difference between understanding why indirectness happens and treating indirectness as an invitation.</p>
+<p>If someone is vague, their intentions remain uncertain.</p>
+<h3 id="ambiguity-isnt-always-a-game">Ambiguity isn’t always a game</h3>
+<p>People sometimes describe dating as though everyone is strategically sending carefully planned signals.</p>
+<p>That assumes a great deal.</p>
+<p>Someone may be interested but uncertain about their own feelings. They may enjoy flirtatious conversation without wanting a relationship. They may communicate affectionately with friends. They may struggle to express interest. Or they may be thinking about something entirely unrelated.</p>
+<p>Those possibilities do not require deception.</p>
+<p>A person can be genuinely friendly without promising romance.</p>
+<p>A person can feel attracted to you without having decided whether they want to date you.</p>
+<p>And a person can change their mind.</p>
+<p>You do not need to turn every confusing interaction into a question of whether someone is being honest.</p>
+<p>Sometimes people are still discovering what they feel.</p>
+<p>Their uncertainty does not obligate you to wait indefinitely, but it also does not make them dishonest.</p>
+<h2 id="different-ways-of-communicating-can-create-different-interpretations">Different ways of communicating can create different interpretations</h2>
+<p>Suppose you meet someone who rarely makes eye contact.</p>
+<p>You might assume they are uncomfortable around you or don’t enjoy talking with you.</p>
+<p>But perhaps they concentrate better when they look away. Perhaps eye contact is uncomfortable for them. Perhaps they are nervous. Perhaps they simply have a different conversational style.</p>
+<p>Without more information, you cannot know which explanation fits.</p>
+<p>This is particularly important when two people communicate differently.</p>
+<p>Research on first impressions has found that non-autistic observers sometimes form less favorable impressions of autistic people based on brief social presentations. Across three studies, observers were less inclined to interact with autistic people than with non-autistic comparison participants <span class="citation" data-cites="sasson2017">(<a href="#ref-sasson2017" role="doc-biblioref">Sasson et al., 2017</a>)</span>.</p>
+<p>That research did not measure flirting or romantic interest.</p>
+<p>It does show that someone’s manner of speaking or presenting themselves can influence another person’s judgment before the two have had a chance to understand one another.</p>
+<p>The misunderstanding need not come from the person whose behavior is being judged.</p>
+<p>Consider what this can look like in dating.</p>
+<p>Nadia, 30, enjoys talking with Morgan, 34, who is autistic. Morgan asks thoughtful questions, remembers details, and suggests meeting again. But Morgan rarely smiles while listening and sometimes looks away while answering.</p>
+<p>Nadia initially wonders whether Morgan is bored.</p>
+<p>Morgan, meanwhile, is enjoying the conversation and concentrating closely on what Nadia says.</p>
+<p>Neither person is behaving dishonestly.</p>
+<p>They are interpreting the same interaction through different expectations.</p>
+<p>If Nadia assumes that smiling and eye contact are necessary signs of interest, she may miss Morgan’s interest.</p>
+<p>If Morgan assumes that accepting another invitation clearly communicates romantic attraction, Morgan may be surprised when Nadia thinks they’re simply becoming friends.</p>
+<p>The solution is not for either person to become a perfect imitation of the other.</p>
+<p>It’s for both people to recognize that their familiar communication habits may carry different meanings.</p>
+<h3 id="understanding-goes-in-both-directions">Understanding goes in both directions</h3>
+<p>A study involving 67 autistic and 58 non-autistic adults examined brief conversations between people who had not previously met.</p>
+<p>Non-autistic participants preferred future interactions with non-autistic partners. Autistic participants showed a tendency toward preferring autistic partners and reported disclosing more personal information when paired with another autistic participant <span class="citation" data-cites="morrison2020">(<a href="#ref-morrison2020" role="doc-biblioref">Morrison et al., 2020</a>)</span>.</p>
+<p>These were five-minute social conversations, not dates.</p>
+<p>Still, they illustrate an important point from the double empathy problem discussed earlier in this book: the experience of communicating depends on the people involved, not just the abilities of one person.</p>
+<p>It would be a mistake to describe every misunderstanding between an autistic and a non-autistic person as the autistic person’s failure.</p>
+<p>It would be equally mistaken to assume two autistic people will automatically understand each other.</p>
+<p>Two people can share a diagnosis and still have very different ways of communicating.</p>
+<p>For example, one autistic person may prefer direct statements and minimal physical affection, while another enjoys affectionate gestures but needs considerable time before discussing feelings.</p>
+<p>Neither style establishes how much someone cares.</p>
+<p>And neither person can know what the other intends without listening.</p>
+<p>If you are dating someone whose communication style differs from yours, treat their own explanation of their behavior as more informative than a rule you’ve learned about how interested people supposedly act.</p>
+<p>That principle applies regardless of which person is autistic, neurotypical, or otherwise neurodivergent.</p>
+<h2 id="even-familiar-forms-of-affection-can-mean-different-things">Even familiar forms of affection can mean different things</h2>
+<p>Not every disagreement about signals involves eye contact or conversation.</p>
+<p>Physical closeness can also carry different meanings.</p>
+<p>One person may enjoy cuddling with close friends. Another may reserve cuddling for romantic partners. Someone else may welcome physical closeness on one day and prefer distance on another.</p>
+<p>In a qualitative study comparing autistic and non-autistic adults, participants described varied experiences of physical affection and intimacy. Their accounts showed that affectionate acts do not carry one universal romantic or sexual meaning <span class="citation" data-cites="sala2024">(<a href="#ref-sala2024" role="doc-biblioref">Sala et al., 2024</a>)</span>.</p>
+<p>The study included 31 autistic and 26 non-autistic adults who provided written responses. It was not designed to measure whether particular gestures reliably predict attraction.</p>
+<p>Its value lies in making visible how different the meanings of similar experiences can be.</p>
+<p>Consider two people sitting together watching a movie.</p>
+<p>One leans against the other.</p>
+<p>That might express romantic affection.</p>
+<p>It might also express friendship, comfort, or a preference for physical closeness.</p>
+<p>What matters is what the people involved actually want and agree to, not what an outside observer assumes the gesture means.</p>
+<p>This returns to an essential distinction from the earlier consent chapters:</p>
+<p><strong>Possible attraction is not permission.</strong></p>
+<p>RAINN’s guidance explains that flirting, clothing, and previous encounters do not constitute sexual consent. Consent must be freely given, specific, and ongoing <span class="citation" data-cites="rainn2026consent101">(<a href="#ref-rainn2026consent101" role="doc-biblioref">RAINN, 2026</a>)</span>.</p>
+<p>You can recognize a possible romantic signal without assuming someone wants to be touched, kissed, or involved in sexual activity.</p>
+<p>If something is uncertain, ask or wait. Never treat ambiguity as agreement.</p>
+<h2 id="not-everyone-learned-the-same-dating-rules">Not everyone learned the same dating rules</h2>
+<p>Some people were surrounded by examples of dating from an early age. Others grew up in environments where romance was rarely discussed, where direct expressions of affection were discouraged, or where the available examples did not resemble the relationships they wanted.</p>
+<p>A person dating at 40 may be encountering situations that another person encountered at 18.</p>
+<p>That doesn’t mean the 40-year-old is incapable of understanding relationships.</p>
+<p>It means experience is unevenly distributed, and years lived are not the same thing as years spent practicing a particular skill.</p>
+<p>Dating conventions can also assume that everyone wants the same kind of relationship.</p>
+<p>For someone whose experience of romance, sexuality, or gender doesn’t fit those expectations, the conventions themselves may be difficult to use.</p>
+<p>A UK qualitative study interviewed 16 autistic adults who were gender and sexually diverse. Participants described uncertainty about expected relationship conventions and differing ways of understanding the boundary between friendship and romance. Some emphasized the value of explicitly defining relationships together rather than relying on assumed expectations <span class="citation" data-cites="ciric2026">(<a href="#ref-ciric2026" role="doc-biblioref">Ciric et al., 2026</a>)</span>.</p>
+<p>That small study does not represent every autistic person, every LGBTQ+ person, or everyone who dates outside conventional expectations.</p>
+<p>It does provide a useful reminder: a dating convention is not a law of human behavior.</p>
+<p>The way someone expresses attraction may not resemble the example you grew up seeing.</p>
+<p>The same is true when two people come from different families, social communities, or cultural backgrounds.</p>
+<p>Researchers comparing judgments of German speed-dating videos found some similarities among observers in different countries <span class="citation" data-cites="place2012">(<a href="#ref-place2012" role="doc-biblioref">Place et al., 2012</a>)</span>. But recognizing some shared information does not mean every culture assigns identical meanings to every gesture.</p>
+<p>There is no single person whose understanding of romantic communication serves as the universal standard.</p>
+<div class="callout neurotype neurotype-autistic" data-custom-style="Callout">
+<p><strong>If you would rather be told than shown</strong></p>
+<p>Much of dating runs on signals that are deliberately deniable, which means they can’t be read reliably even in principle. Missing them is not a skill deficit on your part.</p>
+<p>You can opt out of the guessing without opting out of the dating. Asking directly — “I can’t tell if you’re flirting with me, and I’d like to know” — is clearer than any amount of interpretation, and lands better than people expect.</p>
+<p>Some will find directness a relief and some won’t. That reaction is itself useful information about how easy this person will be to be close to.</p>
+</div>
+<h2 id="why-some-readers-find-this-especially-frustrating">Why some readers find this especially frustrating</h2>
+<p>If you prefer clear instructions, romantic ambiguity may feel unusually difficult.</p>
+<p>You might be perfectly comfortable learning how something works when it has consistent rules. You read instructions, practice, make corrections, and eventually become competent.</p>
+<p>Then you enter a situation where the same smile can have several meanings, different people expect different things, and even the person sending a signal may be uncertain about it.</p>
+<p>That can be frustrating.</p>
+<p>In a small qualitative study of 24 autistic adults in the United States, participants described challenges involving courtship and sexual experiences, including communication and sensory concerns. Their accounts included efforts to communicate intentionally and explicitly <span class="citation" data-cites="barnett2015">(<a href="#ref-barnett2015" role="doc-biblioref">Barnett &amp; Maticka-Tyndale, 2015</a>)</span>.</p>
+<p>The study does not show that every autistic adult finds romantic signals confusing. Nor does it measure whether autistic adults recognize romantic interest more or less accurately than anyone else.</p>
+<p>What it does show is that difficulties navigating courtship appear in some autistic adults’ own descriptions of their experiences.</p>
+<p>Clear communication can be a reasonable response to uncertainty, rather than a deficiency to hide.</p>
+<p>You may recognize the underlying difficulty even if you’re not autistic.</p>
+<p>Perhaps you have ADHD, or you’ve had relationships in which your expectations and someone else’s did not match. Perhaps you simply prefer knowing where you stand.</p>
+<p>The evidence reviewed for this chapter doesn’t establish how ADHD or trauma histories affect the accuracy of reading romantic interest. Those experiences shouldn’t be turned into assumptions about your abilities.</p>
+<p>You don’t need a diagnosis or a research explanation for every moment of confusion.</p>
+<p>You’re allowed to prefer clarity.</p>
+<p>And the person you’re interested in is allowed to need it, too.</p>
+<div class="callout partner partner-autistic" data-custom-style="Callout">
+<p><strong>If you're dating someone who misses your hints</strong></p>
+<p>A hint that isn’t picked up has not been rejected. It usually hasn’t been received at all, and repeating it more subtly makes that worse rather than better.</p>
+<p>If something matters, say it in plain words. “I’d like to kiss you” or “I want to see you again this week” removes a guess rather than removing romance.</p>
+<p>This isn’t a demand that you abandon subtlety everywhere. It’s that the important messages are worth sending on a channel you know they’ll get.</p>
+</div>
+<h2 id="the-difference-between-a-possibility-and-a-promise">The difference between a possibility and a promise</h2>
+<p>Imagine three situations.</p>
+<p><strong>Situation one:</strong> Someone tells you that they enjoy talking with you.</p>
+<p>You know they enjoy talking with you, at least as they describe it. You don’t know whether they want romance.</p>
+<p><strong>Situation two:</strong> Someone says they’d like to go on a date with you.</p>
+<p>Now you have a much clearer expression of romantic interest. You still don’t know whether either of you will want a relationship after the date.</p>
+<p><strong>Situation three:</strong> Someone says they’re not interested in dating you.</p>
+<p>That is a clear answer about what they want.</p>
+<p>The third situation is not another ambiguous signal for you to reinterpret.</p>
+<p>If someone has declined, their answer takes priority over any smile, compliment, or friendliness that came before or afterward. You don’t need to search for an alternative meaning that would justify asking again.</p>
+<p>If the person says no, you respect the no.</p>
+<p>If you’ve found yourself repeatedly trying to reinterpret a refusal as hidden interest, stop pursuing that person. Return to the boundaries discussed in Part 4, and seek support if you are struggling to let the situation go.</p>
+<p>This isn’t about demanding that every person express their feelings perfectly.</p>
+<p>It’s about recognizing that <strong>uncertainty creates no entitlement</strong>.</p>
+<p>You can experience attraction without acting on it. You can feel disappointed without asking someone to change their answer.</p>
+<p>And you can enjoy someone else’s kindness without requiring it to mean anything more.</p>
+<h2 id="a-small-exercise-what-do-you-actually-know">A small exercise: What do you actually know?</h2>
+<p>The next time you find yourself puzzling over an interaction, try separating it into three parts.</p>
+<p>You don’t need a special journal or an elaborate system. A short note will do.</p>
+<h3 id="write-down-what-actually-happened">1. Write down what actually happened</h3>
+<p>Use observable details rather than conclusions.</p>
+<p>For example:</p>
+<p>“Chris talked with me for twenty minutes after the group activity.”</p>
+<p>Not:</p>
+<p>“Chris stayed because they’re secretly attracted to me.”</p>
+<p>The first is something you observed. The second is an explanation you’re considering.</p>
+<h3 id="write-down-two-possible-meanings">2. Write down two possible meanings</h3>
+<p>For the same example:</p>
+<ul>
+<li>Chris enjoys talking with you as a friend.</li>
+<li>Chris may be interested in getting to know you romantically.</li>
+</ul>
+<p>You aren’t trying to create an endless list.</p>
+<p>The point is to remind yourself that more than one explanation is possible.</p>
+<p>If someone has explicitly told you what they mean, or has declined your interest, respect that answer instead of generating alternative interpretations.</p>
+<h3 id="write-down-what-you-can-reasonably-conclude">3. Write down what you can reasonably conclude</h3>
+<p>In this case:</p>
+<p>“Chris seems comfortable having a longer conversation with me. I don’t know whether the interest is romantic.”</p>
+<p>That’s enough.</p>
+<p>You have not failed because you couldn’t identify a hidden meaning.</p>
+<p>You’ve made a distinction between an observation and an assumption.</p>
+<p>And if you’re interested in Chris, you have a choice: you can enjoy getting to know them without deciding what everything means, or you can eventually express your own interest clearly and allow them to respond freely.</p>
+<p>The next chapters explain those choices in more detail.</p>
+<h3 id="when-you-feel-yourself-searching-for-certainty">When you feel yourself searching for certainty</h3>
+<p>You may discover that you keep replaying the same interaction even after you’ve considered the reasonable explanations.</p>
+<p>If so, try asking yourself:</p>
+<p><strong>“Is there any new information here, or am I reconsidering the same information?”</strong></p>
+<p>If nothing new has happened, reviewing the conversation again won’t create an answer the other person hasn’t provided.</p>
+<p>You can leave the question unresolved for now.</p>
+<p>Uncertainty is uncomfortable, but it is not an emergency.</p>
+<p>You do not have to act on every feeling or settle every question immediately.</p>
+<h2 id="you-dont-have-to-become-a-detective">You don’t have to become a detective</h2>
+<p>There is a particular kind of exhaustion that comes from treating every social interaction as a puzzle you are expected to solve.</p>
+<p>You notice every pause, every smile, every unanswered message. You compare today’s conversation with last week’s. You try to determine what someone meant by a sentence they may barely remember saying.</p>
+<p>The problem is that collecting more details doesn’t always produce greater certainty.</p>
+<p>A smile remains a smile. A friendly conversation remains a friendly conversation.</p>
+<p>You can learn to notice patterns, and you can become more comfortable interpreting social situations. But no amount of observation gives you unrestricted access to another person’s private thoughts.</p>
+<p>That is not a personal failure.</p>
+<p>Remember the sculpture-and-glasses image introduced earlier in the book. Two people can look at the same interaction from different positions, through different experiences, and perceive different things.</p>
+<p>The way forward isn’t to insist that one person’s interpretation must be correct.</p>
+<p>It’s to make room for both perspectives and find out where they meet.</p>
+<p>For now, carry three principles with you:</p>
+<ol type="1">
+<li><strong>Notice what happened without automatically deciding what it means.</strong></li>
+<li><strong>Let uncertainty remain uncertainty until you have better information.</strong></li>
+<li><strong>Never treat a possible signal as permission or a clear refusal as something to decode.</strong></li>
+</ol>
+<p>Those principles give you a safer and more realistic starting point than trying to memorize a list of gestures that supposedly reveal someone’s true feelings.</p>
+<p>Romantic interest becomes easier to navigate when you stop expecting every interaction to provide a definite answer.</p>
+<p>You can appreciate someone’s attention without claiming to know their intentions. You can enjoy your own attraction without assuming it is mutual. You can also recognize that a person may be genuinely interested in you even when their communication style differs from yours.</p>
+<p>The goal isn’t to eliminate uncertainty from dating.</p>
+<p>It’s to respond to uncertainty without hurting yourself or someone else.</p>
+<p>Next comes the part you can control: how to show your own interest in a way that is clear, respectful, and leaves the other person free to choose.</p>
+<p>You don’t need to send a perfect signal.</p>
+<p>You need to communicate something understandable, and be willing to hear the answer.</p>
+<h1 class="unnumbered" id="bibliography"></h1>
+</div><section class="chapter-body chapter-refs" aria-labelledby="references" data-pagefind-ignore><h2 id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-barnett2015" class="csl-entry" role="listitem">
+Barnett, J. P., &amp; Maticka-Tyndale, E. (2015). <span class="nocase">Qualitative exploration of sexual experiences among adults on the autism spectrum: Implications for sex education</span>. <em>Perspectives on Sexual and Reproductive Health</em>, <em>47</em>(4), 171–179. <a href="https://doi.org/10.1363/47e5715">https://doi.org/10.1363/47e5715</a>
+</div>
+<div id="ref-ciric2026" class="csl-entry" role="listitem">
+Ciric, T., White, L. C. J., Allison-Duncan, C., Maloney, E., &amp; Gillespie-Smith, K. (2026). <span class="nocase"><span>“It’s quite difficult to put Autistic relationships in a box”</span>: A qualitative exploration of romantic relationships in gender and sexually diverse Autistic adults</span>. <em>Autism</em>, <em>30</em>(3), 682–694. <a href="https://doi.org/10.1177/13623613251407765">https://doi.org/10.1177/13623613251407765</a>
+</div>
+<div id="ref-farris2008" class="csl-entry" role="listitem">
+Farris, C., Treat, T. A., Viken, R. J., &amp; McFall, R. M. (2008). <span class="nocase">Perceptual mechanisms that characterize gender differences in decoding women’s sexual intent</span>. <em>Psychological Science</em>, <em>19</em>(4), 348–354. <a href="https://doi.org/10.1111/j.1467-9280.2008.02092.x">https://doi.org/10.1111/j.1467-9280.2008.02092.x</a>
+</div>
+<div id="ref-morrison2020" class="csl-entry" role="listitem">
+Morrison, K. E., DeBrabander, K. M., Jones, D. R., Faso, D. J., Ackerman, R. A., &amp; Sasson, N. J. (2020). <span class="nocase">Outcomes of real-world social interaction for autistic adults paired with autistic compared to typically developing partners</span>. <em>Autism</em>, <em>24</em>(5), 1067–1080. <a href="https://doi.org/10.1177/1362361319892701">https://doi.org/10.1177/1362361319892701</a>
+</div>
+<div id="ref-perilloux2012" class="csl-entry" role="listitem">
+Perilloux, C., Easton, J. A., &amp; Buss, D. M. (2012). <span class="nocase">The misperception of sexual interest</span>. <em>Psychological Science</em>, <em>23</em>(2), 146–151. <a href="https://doi.org/10.1177/0956797611424162">https://doi.org/10.1177/0956797611424162</a>
+</div>
+<div id="ref-pinker2008" class="csl-entry" role="listitem">
+Pinker, S., Nowak, M. A., &amp; Lee, J. J. (2008). <span class="nocase">The logic of indirect speech</span>. <em>Proceedings of the National Academy of Sciences</em>, <em>105</em>(3), 833–838. <a href="https://doi.org/10.1073/pnas.0707192105">https://doi.org/10.1073/pnas.0707192105</a>
+</div>
+<div id="ref-place2009" class="csl-entry" role="listitem">
+Place, S. S., Todd, P. M., Penke, L., &amp; Asendorpf, J. B. (2009). <span class="nocase">The ability to judge the romantic interest of others</span>. <em>Psychological Science</em>, <em>20</em>(1), 22–26. <a href="https://doi.org/10.1111/j.1467-9280.2008.02248.x">https://doi.org/10.1111/j.1467-9280.2008.02248.x</a>
+</div>
+<div id="ref-place2012" class="csl-entry" role="listitem">
+Place, S. S., Todd, P. M., Zhuang, J., Penke, L., &amp; Asendorpf, J. B. (2012). <span class="nocase">Judging romantic interest of others from thin slices is a cross-cultural ability</span>. <em>Evolution and Human Behavior</em>, <em>33</em>(5), 547–550. <a href="https://doi.org/10.1016/j.evolhumbehav.2012.02.001">https://doi.org/10.1016/j.evolhumbehav.2012.02.001</a>
+</div>
+<div id="ref-rainn2026consent101" class="csl-entry" role="listitem">
+RAINN. (2026). <em><span class="nocase">Consent 101: Respect, boundaries, &amp; building trust</span></em>. <a href="https://rainn.org/share-the-facts/consent-101-respect-boundaries-and-building-trust/">https://rainn.org/share-the-facts/consent-101-respect-boundaries-and-building-trust/</a>
+</div>
+<div id="ref-sala2024" class="csl-entry" role="listitem">
+Sala, G., Hooley, J., Hooley, M., &amp; Stokes, M. A. (2024). <span class="nocase">Comparing physical intimacy and romantic relationships of autistic and non-autistic adults: A qualitative analysis</span>. <em>Journal of Autism and Developmental Disorders</em>, <em>54</em>(10), 3942–3951. <a href="https://doi.org/10.1007/s10803-023-06109-0">https://doi.org/10.1007/s10803-023-06109-0</a>
+</div>
+<div id="ref-sasson2017" class="csl-entry" role="listitem">
+Sasson, N. J., Faso, D. J., Nugent, J., Lovell, S., Kennedy, D. P., &amp; Grossman, R. B. (2017). <span class="nocase">Neurotypical peers are less willing to interact with those with autism based on thin slice judgments</span>. <em>Scientific Reports</em>, <em>7</em>. <a href="https://doi.org/10.1038/srep40700">https://doi.org/10.1038/srep40700</a>
+</div>
+</div>
+</section><nav class="chapter-nav" aria-label="Chapters"><a class="prev" href="/perspectives/read/37-green-flags-and-red-flags/" rel="prev"><small>Previous</small>Green flags and red flags</a><a class="next" href="/perspectives/read/39-showing-interest-clearly/" rel="next"><small>Next</small>Showing interest clearly</a></nav></article></div></main><footer class="site-footer"><div class="footer-inner"><p class="wordmark small-mark">perspectives</p><p>boundaries, conversation and connection, from the ground up</p><p>By Corin Vantage and ChatGPT. Free to read and share under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">CC BY-NC-ND 4.0</a>.</p><p class="small">Not a substitute for professional help. If you are in danger or crisis in the US, call or text 988, or call 911. <a href="/perspectives/resources/">More support</a>.</p><p class="small muted">No accounts, no tracking. Settings stay in your browser.</p></div></footer><script type="module" src="/perspectives/_astro/Base.astro_astro_type_script_index_0_lang.DEhRnEzW.js"></script></body></html><script type="module" src="/perspectives/_astro/_slug_.astro_astro_type_script_index_0_lang.B7PQTQkx.js"></script>

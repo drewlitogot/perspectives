@@ -1,0 +1,1 @@
+import{r as e,t}from"./prefs.B_7JF5EJ.js";var n=()=>{let n=e()?t().read:[];document.querySelectorAll(`[data-slug]`).forEach(e=>{let t=e.querySelector(`[data-read]`);t&&(t.hidden=!n.includes(e.dataset.slug))})};n(),document.addEventListener(`perspectives:progress`,n);

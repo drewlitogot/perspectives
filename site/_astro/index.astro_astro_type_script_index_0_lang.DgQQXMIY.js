@@ -1,0 +1,1 @@
+import{r as e,t}from"./prefs.B_7JF5EJ.js";var n=document.querySelector(`[data-resume]`),r=e()?t().last:void 0;n&&r&&(n.href=new URL(`${r}/`,n.href).href,n.hidden=!1);
