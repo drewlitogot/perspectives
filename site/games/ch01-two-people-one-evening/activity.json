@@ -1,0 +1,275 @@
+{
+  "apiVersion": "1.0",
+  "start": "welcome",
+  "screens": [
+    {
+      "id": "welcome",
+      "type": "info",
+      "title": "Two People, One Evening",
+      "body": "Tamsin and Ruben are meeting for coffee. Both hoped for a good conversation. But a busy room can feel different to two people.\n\nYou will notice what happened, look through both perspectives, and choose what Ruben could do next. There is no score. These are possible outcomes, not a test of anyone’s personality.",
+      "next": "coffee-shop",
+      "image": {
+        "asset": "assets/07-laughing-together.webp",
+        "alt": "Tamsin and Ruben both smile broadly while sitting across from each other with coffee."
+      }
+    },
+    {
+      "id": "coffee-shop",
+      "type": "info",
+      "title": "The café gets busy",
+      "body": "The first twenty minutes are easy. Tamsin asks about Ruben’s favorite books. Ruben asks about Tamsin’s weekend.\n\nThen the café fills up. A coffee grinder runs beside their table. Several conversations overlap.\n\nTamsin’s replies become shorter. Ruben notices the change and wonders what it means.",
+      "next": "what-you-notice",
+      "image": {
+        "asset": "assets/02-cafe-crowd.webp",
+        "alt": "A busy café surrounds the table. Tamsin looks away, touching the side of the head, while Ruben watches with concern."
+      }
+    },
+    {
+      "id": "what-you-notice",
+      "type": "form",
+      "title": "What stood out to you?",
+      "body": "Different people notice different details in the same moment. Choose the detail that caught your attention first.",
+      "fields": [
+        {
+          "id": "first-detail",
+          "type": "single-choice",
+          "label": "Which detail did you notice first?",
+          "required": true,
+          "options": [
+            {
+              "value": "conversation",
+              "label": "Both people seemed interested at first.",
+              "feedback": "That is part of what happened. An earlier warm exchange is useful context, but it does not tell you how either person feels right now.",
+              "tone": "neutral"
+            },
+            {
+              "value": "noise",
+              "label": "The café became much louder.",
+              "feedback": "The change in the room is observable. It may affect attention or comfort, but the room alone cannot explain every reaction.",
+              "tone": "neutral"
+            },
+            {
+              "value": "short-replies",
+              "label": "Tamsin started giving shorter replies.",
+              "feedback": "You spotted a change in behavior. What it means is not yet known. More than one explanation could fit.",
+              "tone": "neutral"
+            }
+          ]
+        }
+      ],
+      "next": "two-views",
+      "image": {
+        "asset": "assets/03-cafe-crowd-alt.webp",
+        "alt": "Patrons fill the café behind Tamsin and Ruben. Tamsin looks down as Ruben looks over, unsure what has changed."
+      }
+    },
+    {
+      "id": "two-views",
+      "type": "perspective",
+      "title": "The same moment, two views",
+      "body": "The café is one shared place, but Tamsin and Ruben do not have the same information. Read both views before continuing.",
+      "requireAllPerspectives": true,
+      "perspectives": [
+        {
+          "id": "tamsin",
+          "label": "Tamsin’s view",
+          "body": "Tamsin wants to keep talking. The grinder and nearby voices are making it difficult to follow Ruben’s sentences. Tamsin answers briefly to avoid guessing at words they did not hear.\n\nTamsin has not told Ruben what is happening.",
+          "image": {
+            "asset": "assets/04-tamsin-reflects.webp",
+            "alt": "Tamsin rests a cheek on a hand and looks away thoughtfully while Ruben watches across the table."
+          }
+        },
+        {
+          "id": "ruben",
+          "label": "Ruben’s view",
+          "body": "Ruben is enjoying the date. He hears the café getting louder, but he can still follow the conversation. Tamsin is replying with fewer words now. Ruben wonders whether he said something unwelcome.\n\nRuben cannot know Tamsin’s reason just by watching.",
+          "image": {
+            "asset": "assets/05-ruben-speaks.webp",
+            "alt": "Ruben gestures with open hands while speaking to Tamsin across their café table."
+          }
+        }
+      ],
+      "next": "fact-or-guess"
+    },
+    {
+      "id": "fact-or-guess",
+      "type": "form",
+      "title": "Separate facts from guesses",
+      "body": "You know more than Ruben does because you have read both views. What can Ruben reasonably conclude from the behavior he saw?",
+      "fields": [
+        {
+          "id": "interpretation",
+          "type": "single-choice",
+          "label": "Which description keeps facts and interpretations separate?",
+          "required": true,
+          "options": [
+            {
+              "value": "certain-disinterest",
+              "label": "Tamsin is definitely bored with Ruben.",
+              "feedback": "Shorter replies do not prove boredom. Ruben has noticed a change, not its cause. He should not treat a guess as a fact.",
+              "tone": "caution"
+            },
+            {
+              "value": "certain-overload",
+              "label": "Tamsin must be experiencing overload.",
+              "feedback": "Noise is difficult for Tamsin in this fictional scene. But Ruben cannot know whether someone is experiencing overload simply from shorter replies. He can ask rather than assume.",
+              "tone": "consider"
+            },
+            {
+              "value": "uncertain",
+              "label": "Tamsin replied less, and Ruben does not know why.",
+              "feedback": "This describes what Ruben observed without inventing a reason. He can choose to ask, offer an option, or leave the date respectfully.",
+              "tone": "positive"
+            }
+          ]
+        }
+      ],
+      "next": "choose-response",
+      "image": {
+        "asset": "assets/09-thoughtful-pause.webp",
+        "alt": "Tamsin and Ruben pause in thought with coffee in front of them; background tables are occupied."
+      }
+    },
+    {
+      "id": "choose-response",
+      "type": "form",
+      "title": "What might Ruben do?",
+      "body": "Ruben has choices. None guarantees a particular result. Choose one and see one possible outcome.",
+      "fields": [
+        {
+          "id": "ruben-response",
+          "type": "single-choice",
+          "label": "What does Ruben choose?",
+          "required": true,
+          "options": [
+            {
+              "value": "ask",
+              "label": "Ask whether the noise is making conversation difficult.",
+              "feedback": "A direct, open question creates room for Tamsin to explain or decline to explain. It does not require Tamsin to share personal history.",
+              "tone": "positive"
+            },
+            {
+              "value": "offer",
+              "label": "Offer to move somewhere quieter, if Tamsin wants to.",
+              "feedback": "An alternative can help. It stays a request, not a demand, when Tamsin is free to decline.",
+              "tone": "positive"
+            },
+            {
+              "value": "step-back",
+              "label": "Decide not to ask and let the conversation wind down.",
+              "feedback": "Ruben is allowed to end a date. But if he assumes rejection without checking, both people may leave with an incomplete picture.",
+              "tone": "consider"
+            }
+          ],
+          "help": "This is a fictional choice. The result is one possibility, not a prediction."
+        }
+      ],
+      "next": {
+        "rules": [
+          {
+            "when": {
+              "field": "ruben-response",
+              "equals": "ask"
+            },
+            "goto": "asking-outcome"
+          },
+          {
+            "when": {
+              "field": "ruben-response",
+              "equals": "offer"
+            },
+            "goto": "offering-outcome"
+          }
+        ],
+        "default": "stepping-back-outcome"
+      },
+      "image": {
+        "asset": "assets/10-open-conversation.webp",
+        "alt": "Ruben speaks with open gestures as Tamsin listens across the café table."
+      }
+    },
+    {
+      "id": "asking-outcome",
+      "type": "info",
+      "title": "One possible result: asking",
+      "body": "Ruben asks, “Is the noise making it hard to talk, or would you rather call it a day?”\n\nTamsin says, “The noise is making it hard to hear, but I’d like to keep talking somewhere quieter.”\n\nRuben understands more than he did a moment ago. The question did not guarantee another date. It gave Tamsin a chance to say what they wanted.",
+      "next": "one-clear-sentence",
+      "image": {
+        "asset": "assets/06-ruben-listens.webp",
+        "alt": "Tamsin and Ruben look at each other with relaxed expressions across their coffee cups."
+      }
+    },
+    {
+      "id": "offering-outcome",
+      "type": "info",
+      "title": "One possible result: offering a change",
+      "body": "Ruben says, “It’s loud in here. Would you like to try the quieter table near the window?”\n\nTamsin appreciates the offer but says that moving tables would not help enough today. Tamsin would rather finish soon. Ruben accepts that answer.\n\nA considerate suggestion is still an invitation. The other person can say no, and both people may choose to end the date.",
+      "next": "one-clear-sentence",
+      "image": {
+        "asset": "assets/08-tamsin-explains.webp",
+        "alt": "Tamsin speaks with an open-handed gesture while Ruben listens at the quiet café table."
+      }
+    },
+    {
+      "id": "stepping-back-outcome",
+      "type": "info",
+      "title": "One possible result: staying quiet",
+      "body": "Ruben decides the conversation is no longer working and does not ask why. He becomes quiet, too.\n\nTamsin notices Ruben withdrawing and begins to wonder whether he has lost interest. They finish their drinks and part politely.\n\nNeither person did anything wrong by ending the date. But both were left interpreting a change they had not talked about. Asking could have clarified it, if both wanted to continue.",
+      "next": "one-clear-sentence",
+      "image": {
+        "asset": "assets/04-tamsin-reflects.webp",
+        "alt": "Tamsin rests a cheek on a hand and looks away thoughtfully while Ruben watches across the table."
+      }
+    },
+    {
+      "id": "one-clear-sentence",
+      "type": "form",
+      "title": "Practice one clear sentence",
+      "body": "A useful response tells the other person what you know or want and leaves room for their choice. Choose a line that feels worth practicing. All three can be respectful in different situations.",
+      "fields": [
+        {
+          "id": "practice-line",
+          "type": "single-choice",
+          "label": "Which line would you like to practice?",
+          "required": true,
+          "options": [
+            {
+              "value": "ask-break",
+              "label": "“I noticed the room got louder. Would you like a break, or would you rather finish here?”",
+              "feedback": "This checks what the other person wants without assigning a hidden reason to their behavior.",
+              "tone": "positive"
+            },
+            {
+              "value": "state-need",
+              "label": "“It’s getting hard for me to hear. Could we find a quieter place?”",
+              "feedback": "This names your own experience and makes a request. The other person can accept, suggest something else, or decline.",
+              "tone": "positive"
+            },
+            {
+              "value": "finish-kindly",
+              "label": "“I’d like to head out now. Thanks for meeting me.”",
+              "feedback": "You can express a limit without diagnosing anyone else or defending your reason. The other person may have their own preference.",
+              "tone": "positive"
+            }
+          ],
+          "help": "There is no single best line for every situation."
+        }
+      ],
+      "next": "completion",
+      "image": {
+        "asset": "assets/11-shared-understanding.webp",
+        "alt": "Tamsin and Ruben exchange small smiles at the café table with a vase and two coffees between them."
+      }
+    },
+    {
+      "id": "completion",
+      "type": "completion",
+      "title": "Two views can both be real",
+      "body": "Tamsin and Ruben shared one evening, but they noticed and understood different things. The behavior was real. Their guesses about its meaning were not facts.\n\n**What to take with you:** Describe what happened, name your own needs when useful, and ask instead of assuming you know another person’s mind. A request can be refused. If someone declines, asks for space, or wants to leave, respect that choice.\n\nReturn to [Chapter 1: Brains work differently](https://drewlitogot.github.io/perspectives/read/01-brains-work-differently/) for the full explanation, including the double empathy problem and how needs can differ without either person being wrong.",
+      "image": {
+        "asset": "assets/01-cafe-connection.webp",
+        "alt": "Tamsin smiles and talks with Ruben across a café table. Two coffees and a small vase sit between them."
+      }
+    }
+  ]
+}

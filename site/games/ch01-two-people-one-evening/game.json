@@ -1,0 +1,100 @@
+{
+  "apiVersion": "1.0",
+  "id": "ch01-two-people-one-evening",
+  "version": "1.2.0",
+  "chapter": 1,
+  "title": "Two People, One Evening",
+  "description": "Two people share a conversation at a busy café. Discover what each notices, try a respectful response, and see what can change when they ask rather than assume.",
+  "activityType": "scenario",
+  "estimatedMinutes": 5,
+  "sensitive": false,
+  "contentWarnings": [],
+  "requiredCapabilities": [
+    "branching",
+    "perspective-switching",
+    "images"
+  ],
+  "accessibility": {
+    "summary": "An untimed illustrated café story with choices, two accessible perspective tabs, and three possible outcomes. All images have text descriptions. No scores or time limits; you can leave or skip.",
+    "keyboard": true,
+    "screenReader": true,
+    "readingLevel": "Grade 6–8",
+    "notes": "Eleven original sepia-toned illustrations with text alternatives. All decisions and consequences are explained in text. Open both perspective tabs before continuing."
+  },
+  "assets": [
+    {
+      "path": "assets/01-cafe-connection.webp",
+      "type": "image",
+      "alt": "Tamsin smiles and talks with Ruben across a café table. Two coffees and a small vase sit between them."
+    },
+    {
+      "path": "assets/02-cafe-crowd.webp",
+      "type": "image",
+      "alt": "A busy café surrounds the table. Tamsin looks away, touching the side of the head, while Ruben watches with concern."
+    },
+    {
+      "path": "assets/03-cafe-crowd-alt.webp",
+      "type": "image",
+      "alt": "Patrons fill the café behind Tamsin and Ruben. Tamsin looks down as Ruben looks over, unsure what has changed."
+    },
+    {
+      "path": "assets/04-tamsin-reflects.webp",
+      "type": "image",
+      "alt": "Tamsin rests a cheek on a hand and looks away thoughtfully while Ruben watches across the table."
+    },
+    {
+      "path": "assets/05-ruben-speaks.webp",
+      "type": "image",
+      "alt": "Ruben gestures with open hands while speaking to Tamsin across their café table."
+    },
+    {
+      "path": "assets/06-ruben-listens.webp",
+      "type": "image",
+      "alt": "Tamsin and Ruben look at each other with relaxed expressions across their coffee cups."
+    },
+    {
+      "path": "assets/07-laughing-together.webp",
+      "type": "image",
+      "alt": "Tamsin and Ruben both smile broadly while sitting across from each other with coffee."
+    },
+    {
+      "path": "assets/08-tamsin-explains.webp",
+      "type": "image",
+      "alt": "Tamsin speaks with an open-handed gesture while Ruben listens at the quiet café table."
+    },
+    {
+      "path": "assets/09-thoughtful-pause.webp",
+      "type": "image",
+      "alt": "Tamsin and Ruben pause in thought with coffee in front of them; background tables are occupied."
+    },
+    {
+      "path": "assets/10-open-conversation.webp",
+      "type": "image",
+      "alt": "Ruben speaks with open gestures as Tamsin listens across the café table."
+    },
+    {
+      "path": "assets/11-shared-understanding.webp",
+      "type": "image",
+      "alt": "Tamsin and Ruben exchange small smiles at the café table with a vase and two coffees between them."
+    }
+  ],
+  "subjects": [
+    "communication",
+    "sensory-needs",
+    "perspectives"
+  ],
+  "learningObjectives": [
+    "Notice how the same social setting can affect attention and comfort differently for two people.",
+    "Separate what someone did from a guess about their feelings or intentions.",
+    "Consider both people’s perspectives when a conversation changes.",
+    "Practice a clear question or request that respects the other person’s choices."
+  ],
+  "language": "en-US",
+  "authors": [
+    {
+      "name": "ChatGPT (OpenAI)",
+      "role": "Activity author"
+    }
+  ],
+  "license": "CC BY-NC-ND 4.0"
+}
